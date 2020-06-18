@@ -1,2 +1,0 @@
-# myPortfolio
-Created with CodeSandbox
