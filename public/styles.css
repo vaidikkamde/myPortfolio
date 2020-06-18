@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Cinzel|Quicksand|Mansalva|Caveat|Special+Elite&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #212529;
+  color: #fff;
+}
 /* /------navbar css start-------/ */
 .navbar {
   font-family: "Caveat", cursive;
@@ -50,9 +59,54 @@
 .pointer {
   cursor: pointer;
 }
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -2px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.formText {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
 @media (min-width: 1000px) {
   #blankSpace {
     margin-bottom: 5rem;
     height: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
 }

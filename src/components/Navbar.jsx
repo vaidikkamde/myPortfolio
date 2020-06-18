@@ -75,6 +75,17 @@ function Navbar(props) {
                   Projects
                 </div>
               </li>
+              <li className="nav-item">
+                <div
+                  id="ContactMe"
+                  onClick={event => {
+                    props.navigate(event.target.id);
+                  }}
+                  className="nav-link pointer"
+                >
+                  ContactMe
+                </div>
+              </li>
             </ul>
           </div>
         </nav>

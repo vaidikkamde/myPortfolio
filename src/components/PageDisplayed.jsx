@@ -4,6 +4,7 @@ import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Skills from "./Skills";
+import ContactMe from "./ContactMe";
 function PageDisplayed(props) {
   if (props.page === "Home") {
     return <Home />;
@@ -15,6 +16,8 @@ function PageDisplayed(props) {
     return <Skills />;
   } else if (props.page === "Aboutme") {
     return <AboutMe />;
+  } else if (props.page === "ContactMe") {
+    return <ContactMe />;
   }
 }
 
